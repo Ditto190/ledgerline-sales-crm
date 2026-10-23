@@ -1,0 +1,52 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+test-results
+playwright-report
+*.tmp
+.env
+.env.*
+dist-ssr
+.output
+.vinxi
+.tanstack/**
+.nitro
+*.local
+
+# Wrangler / Cloudflare
+.wrangler/
+.dev.vars
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/mcp.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# legacy Lovable files (kept locally, not committed)
+.lovable/
+.archive/
+bun.lock
+bunfig.toml
+src/server.ts
+src/start.ts
+src/lib/error-capture.ts
+src/lib/error-page.ts
+src/lib/lovable-error-reporting.ts

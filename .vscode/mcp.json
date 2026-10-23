@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "context7": {
+      "type": "stdio",
+      "command": "cmd",
+      "args": ["/d", "/s", "/c", "npx -y @upstash/context7-mcp@latest"]
+    }
+  }
+}
