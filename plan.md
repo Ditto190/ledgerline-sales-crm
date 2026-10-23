@@ -10,5 +10,5 @@ Language: TypeScript / React 19. Work folder: this repo. Tasks: `.metadata/tasks
 
 ## Notes
 - Data stays local-first (`localStorage` via `SalesRepository`); Spark KV can replace it behind the same interface.
-- After build and tests pass, run `.\archive-lovable.ps1` to move leftover files into `.archive/lovable-legacy/`.
+- Legacy Lovable files were removed after build and tests passed.
 - Deployment: Spark hosting or any static host (`npm run build` -> `dist`).
